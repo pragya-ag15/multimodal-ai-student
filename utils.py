@@ -10,6 +10,7 @@ from PIL import Image
 import torch.optim as optim
 import torchvision.models as models
 import torchvision.transforms as transforms
+import torchinfo
 from torchinfo import summary
 
 import nltk # Natural Language Toolkit
